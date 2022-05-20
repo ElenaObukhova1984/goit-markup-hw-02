@@ -1,0 +1,291 @@
+
+:root {
+    --header-background-color:#ECECEC;
+    --header-logo-color:#000000;
+    --main-title-color:#212121;
+    --second-title-color:#757575;
+    --accent-color:#2196F3;
+    --hero-title-color:#FFFFFF;
+    --hero-btn-color:#188ce8;
+    --hero-background-color:#2F303A;
+    --team-background-color:#F5F4FA;
+    --team-item-background-color:#FFFFFF;
+    --footer-background-color:#2F303A;
+    --projects-btn-background-color: #F5F4FA;
+    --projects-item-background-color:#EEEEEE;
+}
+
+.body {
+    font-family:'Roboto'}
+.list {
+    list-style: none;
+}
+.link,.header-logo,.footer-logo {
+    text-decoration: none;
+}
+
+/*----------------------HEADER----------------------*/
+
+
+.first-part-logo {
+    color: var(--accent-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.header {
+    background-color: var(--header-background-color);
+}
+.header-nav {}
+
+
+.header-logo {font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--header-logo-color);}
+
+.header-link:hover,
+.header-link:focus {color: var(--accent-color);}
+
+.header-link-contacts:hover,
+.header-link-contacts:focus {color: var(--accent-color);}
+
+
+.header-item {}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color)}
+
+.current {
+    color: var(--accent-color);
+}
+
+.header-link-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-title-color);
+}
+
+/*---------------------------HERO----------------*/
+
+.hero {
+    background-color: var(--hero-background-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--hero-title-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+      background-color: var(--hero-btn-color);
+}
+.hero-btn {
+    font-family:inherit;
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--hero-title-color);}
+
+/*-------------------------BENEFITS---------------------*/
+
+.benefits {}
+
+.benefits-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-title-color)}
+
+.benefits-list {}
+
+.benefits-item {}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color)}
+
+/*---------------------DIRECTIONS---------------------*/
+
+.directions {}
+
+.directions-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+}
+
+.directions-list {}
+
+.directions-item {}
+
+/*-----------------------TEAM---------------------*/
+
+.team {
+    background-color: var(--team-background-color);
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+}
+
+.team-item {
+    background-color: var(--team-item-background-color);
+}
+
+.team-item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+
+}
+
+.team-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+    
+}
+
+/*-----------------------FOOTER---------------------*/
+.footer {
+    background-color: var(--footer-background-color);
+}
+
+.footer-logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--hero-title-color);
+}
+
+
+
+.footer-contacts {
+    font-style: normal;
+}
+
+.footer-list {}
+
+.footer-item {}
+
+.footer-link {}
+
+.footer-link-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--hero-title-color);
+   }
+.footer-link-address:hover,
+.footer-link-address:focus {color: var(--accent-color);}
+
+
+.footer-link-contacts {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-link-contacts:hover,
+.footer-link-contacts:focus {
+    color: var(--accent-color);
+}
+
+
+.projects-title {}
+
+.projects-list-btn {}
+
+.list {}
+
+.projects-item-btn:hover,
+.projects-item-btn:focus {
+    background-color: #2196F3;
+
+}
+
+
+
+.project-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+    background-color: var(--projects-btn-background-color);
+}
+
+.projects-list {}
+
+.projects-item {
+    background-color: var(--projects-item-background-color) ;
+}
+
+.projects-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-title-color);}
+
+.projects-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color)}
