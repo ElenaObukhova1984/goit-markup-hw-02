@@ -1,5 +1,6 @@
 
 :root {
+    --body-background-color: #E5E5E5;
     --header-background-color:#ECECEC;
     --header-logo-color:#000000;
     --main-title-color:#212121;
@@ -11,12 +12,19 @@
     --team-background-color:#F5F4FA;
     --team-item-background-color:#FFFFFF;
     --footer-background-color:#2F303A;
+    --footer-link-color: rgba(255, 255, 255, 0.6);
     --projects-btn-background-color: #F5F4FA;
     --projects-item-background-color:#EEEEEE;
 }
 
-.body {
-    font-family:'Roboto', sans-serif}
+body {
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+    background-color: var(--body-background-color);
+
+}
 .list {
     list-style: none;
 }
@@ -69,7 +77,6 @@
 
 .header-link {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-title-color)}
@@ -80,7 +87,6 @@
 
 .header-link-contacts {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
@@ -129,15 +135,12 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+        text-transform: uppercase;
     color: var(--main-title-color)}
 
 
 .benefits-text {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--second-title-color)}
 
 /*---------------------DIRECTIONS---------------------*/
@@ -148,7 +151,6 @@
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--main-title-color);
 }
 
@@ -164,7 +166,6 @@
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--main-title-color);
 }
 
@@ -177,17 +178,14 @@
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--main-title-color);
 
 }
 
 .team-item-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--second-title-color);
     
 }
@@ -201,7 +199,6 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     color: var(--hero-title-color);
 }
 
@@ -213,10 +210,7 @@
 
 
 .footer-link-address {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--hero-title-color);
    }
 .footer-link-address:hover,
@@ -224,11 +218,8 @@
 
 
 .footer-link-contacts {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-link-color);
 }
 .footer-link-contacts:hover,
 .footer-link-contacts:focus {
@@ -237,9 +228,10 @@
 
 
 
-.projects-item-btn:hover,
-.projects-item-btn:focus {
+.project-btn:hover,
+.project-btn:focus {
     background-color: #2196F3;
+    color: var(--hero-title-color);
 
 }
 
@@ -251,7 +243,6 @@
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--main-title-color);
     background-color: var(--projects-btn-background-color);
 }
@@ -270,8 +261,6 @@
     color: var(--main-title-color);}
 
 .projects-text {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
+    line-height: 1.88;    
     color: var(--second-title-color)}
